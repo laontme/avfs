@@ -624,6 +624,13 @@ func (f *MemFile) Write(b []byte) (n int, err error) {
 
 	nd.mu.Lock()
 
+	if len(b) == 0 {
+		nd.mu.Unlock()
+		return 0, nil
+	}
+	if f.at > int64(len(nd.data)) {
+		nd.data = append(nd.data, make([]byte, f.at-int64(len(nd.data)))...)
+	}
 	n = copy(nd.data[f.at:], b)
 	if n < len(b) {
 		nd.data = append(nd.data, b[n:]...)
