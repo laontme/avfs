@@ -922,7 +922,7 @@ func (vfs *MemFS) Rename(oldpath, newpath string) error {
 		}
 	}
 
-	if oPI.Path() == nPI.Path() {
+	if oPI.Path() == nPI.Path() || (vfs.OSType() == avfs.OsLinux && oChild == nChild) {
 		return nil
 	}
 
