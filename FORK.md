@@ -10,11 +10,12 @@ master includes all changes. Independent branches rooted at the upstream base:
 - codex/fix-sparse-writes: zero-fill gaps; empty writes do not extend files.
 - codex/fix-append-position: choose current EOF while holding the shared node lock.
 - codex/fix-hardlink-rename: Linux same-inode rename preserves both names.
+- codex/fix-symlink-target: preserve exact target strings and own their memory.
 - codex/fix-symlink-size: symlink metadata uses target byte length.
 - codex/virtual-umask: virtual-only Unix umask; no process umask syscall.
 - codex/portable-paths-default: portable OS path emulation enabled by default.
 
-The five fix branches include scoped regression tests and retain the upstream
+The six fix branches include scoped regression tests and retain the upstream
 module path for future upstream PRs. The two integration-policy branches are
 separate from filesystem correctness fixes. codex/fork-module-path changes the
 combined fork to github.com/laontme/avfs (and reconciles the overlapping append
