@@ -14,7 +14,7 @@
 //  limitations under the License.
 //
 
-//go:build !avfs_setostype
+//go:build avfs_hostpaths && !avfs_setostype
 
 package avfs
 
