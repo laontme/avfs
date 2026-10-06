@@ -471,7 +471,7 @@ func (sn *symlinkNode) setMode(mode fs.FileMode, u avfs.UserReader) bool {
 }
 
 func (sn *symlinkNode) size() int64 {
-	return 1
+	return int64(len(sn.link))
 }
 
 // userDirFor returns the identity view of the storage for user emulating ost,
