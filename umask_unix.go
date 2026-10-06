@@ -21,27 +21,15 @@ package avfs
 import (
 	"io/fs"
 	"sync"
-	"syscall"
 )
 
 var (
 	// umask is the file mode creation mask.
-	umask = initUMask() //nolint:gochecknoglobals // Used by UMask and SetUMask.
+	umask = fs.FileMode(0022) //nolint:gochecknoglobals // Used by UMask and SetUMask.
 
 	// umLock lock access to the umask.
 	umLock sync.RWMutex //nolint:gochecknoglobals // Used by UMask and SetUMask.
 )
-
-func initUMask() fs.FileMode {
-	umLock.Lock()
-
-	m := syscall.Umask(0) // read mask.
-	syscall.Umask(m)      // restore mask after read.
-
-	umLock.Unlock()
-
-	return fs.FileMode(m)
-}
 
 // SetUMask sets the file mode creation mask.
 // Umask must be set to 0 using umask(2) system call to be read,
@@ -50,7 +38,6 @@ func SetUMask(mask fs.FileMode) error {
 	umLock.Lock()
 
 	m := int(mask & fs.ModePerm)
-	_ = syscall.Umask(m)
 	umask = fs.FileMode(m)
 
 	umLock.Unlock()
