@@ -1,6 +1,6 @@
 # AVFS Specification
 
-Module: `github.com/avfs/avfs` · Go >= 1.26 · License: Apache-2.0
+Module: `github.com/laontme/avfs` · Go >= 1.26 · License: Apache-2.0
 
 **AVFS** (Another Virtual File System) is a Go library that provides an abstraction
 layer emulating the behaviour of a file system. It is inspired by
@@ -819,9 +819,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/vfs/memfs"
-	"github.com/avfs/avfs/vfs/osfs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/vfs/memfs"
+	"github.com/laontme/avfs/vfs/osfs"
 )
 
 func main() {

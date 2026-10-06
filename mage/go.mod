@@ -1,4 +1,4 @@
-module github.com/avfs/avfs/mage
+module github.com/laontme/avfs/mage
 
 go 1.26
 

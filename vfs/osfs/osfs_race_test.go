@@ -21,8 +21,8 @@ package osfs_test
 import (
 	"testing"
 
-	"github.com/avfs/avfs/test"
-	"github.com/avfs/avfs/vfs/osfs"
+	"github.com/laontme/avfs/test"
+	"github.com/laontme/avfs/vfs/osfs"
 )
 
 func TestRaceOsFS(t *testing.T) {

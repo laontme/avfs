@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/idm/memidm"
-	"github.com/avfs/avfs/test"
-	"github.com/avfs/avfs/vfs/memfs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/idm/memidm"
+	"github.com/laontme/avfs/test"
+	"github.com/laontme/avfs/vfs/memfs"
 )
 
 // ExampleNewWithOptions should produce the same results independently of the host OS.

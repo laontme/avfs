@@ -20,7 +20,7 @@ import (
 	"io/fs"
 	"time"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // FailFS implements a failing file system using the avfs.VFS interface.

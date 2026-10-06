@@ -23,8 +23,8 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/idm/osidm"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/idm/osidm"
 )
 
 // Chown changes the numeric uid and gid of the named file.

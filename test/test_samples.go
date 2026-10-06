@@ -20,7 +20,7 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // dirInfo contains the sample directories.

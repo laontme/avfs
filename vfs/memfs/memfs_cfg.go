@@ -19,8 +19,8 @@ package memfs
 import (
 	"io/fs"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/idm/memidm"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/idm/memidm"
 )
 
 // New returns a new memory file system (MemFS) with the default Options.

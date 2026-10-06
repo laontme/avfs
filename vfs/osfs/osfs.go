@@ -28,7 +28,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // Abs returns an absolute representation of path.

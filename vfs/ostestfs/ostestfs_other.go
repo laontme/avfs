@@ -22,7 +22,7 @@ import (
 	"io/fs"
 	"math"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // Chroot changes the root to that specified in path.

@@ -16,7 +16,7 @@
 
 package avfs_test
 
-import "github.com/avfs/avfs"
+import "github.com/laontme/avfs"
 
 // Ensures that avfs.PathMixin{} implements avfs.VFSPath interface.
 var _ avfs.VFSPath = &avfs.PathMixin{}

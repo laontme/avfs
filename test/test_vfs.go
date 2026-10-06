@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 func (ts *Suite) TestVFS(t *testing.T) {

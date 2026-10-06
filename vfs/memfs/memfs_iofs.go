@@ -20,7 +20,7 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // Open opens the named file for reading. If successful, methods on

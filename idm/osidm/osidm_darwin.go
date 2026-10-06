@@ -27,7 +27,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // constants for macOS users and groups properties

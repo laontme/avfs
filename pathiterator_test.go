@@ -19,8 +19,8 @@ package avfs_test
 import (
 	"testing"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/vfs/memfs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/vfs/memfs"
 )
 
 // TestPathIterator tests PathIterator methods.

@@ -21,7 +21,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // searchNode search a node from the root of the file system

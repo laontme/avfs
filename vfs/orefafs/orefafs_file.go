@@ -21,7 +21,7 @@ import (
 	"io/fs"
 	"time"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // Chdir changes the current working directory to the file,

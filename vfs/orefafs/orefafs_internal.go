@@ -21,7 +21,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // addChild adds a child to a node.

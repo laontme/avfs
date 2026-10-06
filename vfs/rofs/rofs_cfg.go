@@ -17,7 +17,7 @@
 package rofs
 
 import (
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // New creates a new readonly file system (RoFS) from a base file system.

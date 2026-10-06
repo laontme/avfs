@@ -21,9 +21,9 @@ package memidm_test
 import (
 	"testing"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/idm/memidm"
-	"github.com/avfs/avfs/test"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/idm/memidm"
+	"github.com/laontme/avfs/test"
 )
 
 var (

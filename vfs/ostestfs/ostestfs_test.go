@@ -24,9 +24,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/test"
-	"github.com/avfs/avfs/vfs/ostestfs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/test"
+	"github.com/laontme/avfs/vfs/ostestfs"
 )
 
 var (

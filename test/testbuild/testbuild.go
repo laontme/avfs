@@ -22,15 +22,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/idm/memidm"
-	"github.com/avfs/avfs/idm/osidm"
-	"github.com/avfs/avfs/vfs/basepathfs"
-	"github.com/avfs/avfs/vfs/failfs"
-	"github.com/avfs/avfs/vfs/memfs"
-	"github.com/avfs/avfs/vfs/orefafs"
-	"github.com/avfs/avfs/vfs/ostestfs"
-	"github.com/avfs/avfs/vfs/rofs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/idm/memidm"
+	"github.com/laontme/avfs/idm/osidm"
+	"github.com/laontme/avfs/vfs/basepathfs"
+	"github.com/laontme/avfs/vfs/failfs"
+	"github.com/laontme/avfs/vfs/memfs"
+	"github.com/laontme/avfs/vfs/orefafs"
+	"github.com/laontme/avfs/vfs/ostestfs"
+	"github.com/laontme/avfs/vfs/rofs"
 )
 
 // This code is used by minigox to generate an executable for all operating systems (see mage/magefile.go).

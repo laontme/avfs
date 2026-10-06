@@ -22,7 +22,7 @@ import (
 	"io/fs"
 	"math"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // ToSysStat takes a value from fs.FileInfo.Sys() and returns a value that implements interface avfs.SysStater.

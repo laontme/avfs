@@ -23,7 +23,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 var ErrInvalidName = avfs.InvalidNameError("")

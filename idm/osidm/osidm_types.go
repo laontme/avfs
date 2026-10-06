@@ -16,7 +16,7 @@
 
 package osidm
 
-import "github.com/avfs/avfs"
+import "github.com/laontme/avfs"
 
 // OsIdm implements a rudimentary identity manager using the avfs.IdmMgr interface.
 type OsIdm struct {

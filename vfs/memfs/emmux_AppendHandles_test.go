@@ -1,7 +1,7 @@
 package memfs
 
 import (
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 	"io"
 	"os"
 	"testing"

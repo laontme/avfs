@@ -19,7 +19,7 @@ package osidm
 import (
 	"math"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // New creates a new OsIdm identity manager.

@@ -21,8 +21,8 @@ package avfs_test
 import (
 	"testing"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/test"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/test"
 )
 
 var (

@@ -19,7 +19,7 @@
 // functions updating users or groups aren't safe for concurrent use
 package memidm
 
-import "github.com/avfs/avfs"
+import "github.com/laontme/avfs"
 
 // AdminGroup returns the administrator (root) group.
 func (idm *MemIdm) AdminGroup() avfs.GroupReader {
