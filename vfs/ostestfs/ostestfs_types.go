@@ -17,8 +17,8 @@
 package ostestfs
 
 import (
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/vfs/osfs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/vfs/osfs"
 )
 
 // OsTestFS represents the current file system.

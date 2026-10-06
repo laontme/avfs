@@ -17,7 +17,7 @@
 package failfs
 
 import (
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // New returns a new FailFS file system from a baseFS file system.

@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 func (ts *Suite) TestFile(t *testing.T) {

@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/vfs/ostestfs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/vfs/ostestfs"
 )
 
 const (

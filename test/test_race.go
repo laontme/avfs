@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // TestRace tests data race conditions.

@@ -16,7 +16,7 @@
 
 package memidm
 
-import "github.com/avfs/avfs"
+import "github.com/laontme/avfs"
 
 const (
 	// minUid is the minimum uid for a user.

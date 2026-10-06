@@ -22,7 +22,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // file system functions.

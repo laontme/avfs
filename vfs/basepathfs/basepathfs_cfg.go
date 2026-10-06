@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // New returns a new base path file system (BasePathFS).

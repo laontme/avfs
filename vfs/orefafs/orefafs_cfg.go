@@ -20,7 +20,7 @@ import (
 	"io/fs"
 	"time"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // New returns a new memory file system (OrefaFS) with the default Options.

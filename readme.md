@@ -2,10 +2,10 @@
 
 Another Virtual File System for Go
 
-![CI](https://github.com/avfs/avfs/workflows/CI/badge.svg)
+![CI](https://github.com/laontme/avfs/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/avfs/avfs/branch/master/graph/badge.svg?token=z325AezWts)](https://codecov.io/gh/avfs/avfs)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/avfs/avfs)](https://pkg.go.dev/github.com/avfs/avfs)
-[![Release](https://img.shields.io/github/release/avfs/avfs.svg)](https://github.com/avfs/avfs/releases/latest)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/laontme/avfs)](https://pkg.go.dev/github.com/laontme/avfs)
+[![Release](https://img.shields.io/github/release/avfs/avfs.svg)](https://github.com/laontme/avfs/releases/latest)
 [![License](https://img.shields.io/github/license/avfs/avfs)](/LICENSE)
 [![Built with Mage](https://magefile.org/badge.svg)](https://magefile.org)
 
@@ -33,7 +33,7 @@ Additionally, some file systems support :
 This package can be installed with the go install command :
 
 ```
-go install github.com/avfs/avfs@latest
+go install github.com/laontme/avfs@latest
 ```
 
 It is only tested with Go version >= 1.18
@@ -67,9 +67,9 @@ import (
 	"log"
 	"os"
 	
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/vfs/memfs"
-	"github.com/avfs/avfs/vfs/osfs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/vfs/memfs"
+	"github.com/laontme/avfs/vfs/osfs"
 )
 
 func main() {
@@ -128,9 +128,9 @@ import (
 	"log"
 	"sync"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/idm/memidm"
-	"github.com/avfs/avfs/vfs/memfs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/idm/memidm"
+	"github.com/laontme/avfs/vfs/memfs"
 )
 
 func main() {

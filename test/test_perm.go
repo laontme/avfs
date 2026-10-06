@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // NewPermTests creates and returns a new environment for permissions test.

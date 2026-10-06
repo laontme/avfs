@@ -17,7 +17,7 @@
 package basepathfs
 
 import (
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // BasePathFS implements a base path file system.

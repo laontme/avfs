@@ -21,7 +21,7 @@ package osidm
 import (
 	"math"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // AddGroup creates a new group with the specified name.

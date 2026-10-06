@@ -4,7 +4,7 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // OkFunc is a FailFunc that never fails.

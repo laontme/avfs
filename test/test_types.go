@@ -17,7 +17,7 @@
 package test
 
 import (
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 const (

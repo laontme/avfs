@@ -21,8 +21,8 @@ package orefafs_test
 import (
 	"testing"
 
-	"github.com/avfs/avfs/test"
-	"github.com/avfs/avfs/vfs/orefafs"
+	"github.com/laontme/avfs/test"
+	"github.com/laontme/avfs/vfs/orefafs"
 )
 
 func TestRaceOrefaFs(t *testing.T) {

@@ -23,10 +23,10 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/test"
-	"github.com/avfs/avfs/vfs/failfs"
-	"github.com/avfs/avfs/vfs/orefafs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/test"
+	"github.com/laontme/avfs/vfs/failfs"
+	"github.com/laontme/avfs/vfs/orefafs"
 )
 
 var (

@@ -17,8 +17,8 @@
 package ostestfs
 
 import (
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/idm/osidm"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/idm/osidm"
 )
 
 // New returns a new OS file system with the default Options.

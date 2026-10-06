@@ -16,7 +16,7 @@
 
 package memidm
 
-import "github.com/avfs/avfs"
+import "github.com/laontme/avfs"
 
 // New creates a new identity manager.
 func New() *MemIdm {

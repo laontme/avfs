@@ -16,7 +16,7 @@
 
 package osfs
 
-import "github.com/avfs/avfs"
+import "github.com/laontme/avfs"
 
 // New returns a new OS file system for a production environment.
 func New() (*OsFS, error) {

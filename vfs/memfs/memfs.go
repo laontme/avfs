@@ -30,8 +30,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/avfs/avfs"
-	"github.com/avfs/avfs/vfs/basepathfs"
+	"github.com/laontme/avfs"
+	"github.com/laontme/avfs/vfs/basepathfs"
 )
 
 // Abs returns an absolute representation of path.

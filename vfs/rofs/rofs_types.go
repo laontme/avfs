@@ -16,7 +16,7 @@
 
 package rofs
 
-import "github.com/avfs/avfs"
+import "github.com/laontme/avfs"
 
 // RoFS Represents the file system.
 type RoFS struct {

@@ -19,8 +19,8 @@ package avfs_test
 import (
 	"testing"
 
-	"github.com/avfs/avfs/test"
-	"github.com/avfs/avfs/vfs/memfs"
+	"github.com/laontme/avfs/test"
+	"github.com/laontme/avfs/vfs/memfs"
 )
 
 func TestRndTree(t *testing.T) {

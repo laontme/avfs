@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 var goVersion = goVerNum(runtime.Version()) //nolint:gochecknoglobals // Stores the current Go version

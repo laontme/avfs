@@ -24,7 +24,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 // AdminGroup returns the administrator (root) group.

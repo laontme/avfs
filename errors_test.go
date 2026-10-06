@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/avfs/avfs"
+	"github.com/laontme/avfs"
 )
 
 func TestErrors(t *testing.T) {
