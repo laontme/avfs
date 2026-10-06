@@ -28,6 +28,7 @@ package memfs
 import (
 	"io/fs"
 	"os"
+	"strings"
 	"time"
 
 	"github.com/avfs/avfs"
@@ -1080,7 +1081,7 @@ func (vfs *MemFS) Symlink(oldname, newname string) error {
 		return &os.LinkError{Op: op, Old: oldname, New: newname, Err: vfs.err.PermDenied}
 	}
 
-	link := vfs.Clean(oldname)
+	link := strings.Clone(oldname)
 
 	vfs.createSymlink(parent, pi.Part(), link)
 
