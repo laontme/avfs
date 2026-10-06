@@ -623,13 +623,17 @@ func (f *MemFile) Write(b []byte) (n int, err error) {
 	}
 
 	nd.mu.Lock()
-
-	if len(b) == 0 {
-		nd.mu.Unlock()
-		return 0, nil
-	}
-	if f.at > int64(len(nd.data)) {
-		nd.data = append(nd.data, make([]byte, f.at-int64(len(nd.data)))...)
+    if len(b) == 0 {
+        nd.mu.Unlock()
+        return 0, nil
+    }
+    if f.openMode&avfs.OpenAppend != 0 {
+        f.at = int64(len(nd.data))
+    }
+    if f.at > int64(len(nd.data)) {
+        nd.data = append(nd.data, make([]byte, f.at-int64(len(nd.data)))...)
+    }
+    n = copy(nd.data[f.at:], b)
 	}
 	n = copy(nd.data[f.at:], b)
 	if n < len(b) {
