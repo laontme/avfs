@@ -378,13 +378,10 @@ func (dn *dirNode) size() int64 {
 
 // fileNode
 
-// delete removes all information from the node, decrements the reference counter of the fileNode.
-// If there is no more references, the data is deleted.
+// delete decrements directory links. Open handles retain the node and its data.
+// The garbage collector reclaims it once all directory and handle references disappear.
 func (fn *fileNode) delete() {
 	fn.nlink--
-	if fn.nlink == 0 {
-		fn.data = nil
-	}
 }
 
 // fillStatFrom returns a MemInfo (implementation of fs.FileInfo) from a fileNode fn named name.
